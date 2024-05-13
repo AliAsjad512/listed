@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.MuiInputLabel-asterisk {
+  display: none;
+}
+
+.MuiMenu-list {
+  padding: 0 !important;
+}
+
+.MuiMenuItem-root {
+  padding: 0.75rem 1rem !important;
+}
+
+.MuiDrawer-paper {
+  border-right: 0 !important;
+}
+
+.checkoutImg {
+  block-size: auto;
+  max-height: 10rem;
+  max-inline-size: 10rem;
+}
+
+.text-underline {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
