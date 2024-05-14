@@ -9,8 +9,8 @@ import AccountCircle from "@mui/icons-material/AccountCircle";
 import PasswordRoundedIcon from "@mui/icons-material/PasswordRounded";
 import EmailIcon from "@mui/icons-material/Email";
 import LockIcon from "@mui/icons-material/Lock";
-import TitanLogo from "../assets/TitanLogo.png";
-import TitanLogo2 from "../assets/Logo2.png";
+import ListedLogo from "../assets/ListedLogo.png";
+import ListedLogo2 from "../assets/Logo2.png";
 import HowToRegRoundedIcon from "@mui/icons-material/HowToRegRounded";
 import Alert from "@mui/material/Alert";
 import { registerUser, loginUser } from "./utils/data";
@@ -160,7 +160,7 @@ function FormSwitch() {
               </Alert>
             )}
             <div className="image-container">
-              <img src={TitanLogo} alt="My Image" className="img1" />
+              <img src={ListedLogo} alt="My Image" className="img1" />
             </div>
             <div className="container">
               <div className="row">
@@ -253,7 +253,7 @@ function FormSwitch() {
 
             <fieldset>
               <div className="image-container">
-                <img src={TitanLogo2} alt="My Image" className="img1" />
+                <img src={ListedLogo2} alt="My Image" className="img1" />
               </div>
               <div className="container">
                 <div className="row">
