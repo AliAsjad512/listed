@@ -298,9 +298,8 @@
   text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
+    #e07b7b 0%,
+    #ff9500 67%,
     #fff800 100%
   );
   background-size: auto auto;
@@ -314,6 +313,7 @@
   animation: textclip 2s linear infinite;
   display: inline-block;
   font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @keyframes textclip {

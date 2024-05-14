@@ -20,7 +20,7 @@
 }
 
 .message {
-  color: #9d72f3;
+  color: #db8960;
   display: block;
   font-weight: 900;
   overflow: hidden;
@@ -28,7 +28,7 @@
   padding-right: 5rem;
   top: 0.2rem;
   left: 180px;
-  animation: openclose 5s ease-in-out infinite;
+  
 }
 
 .word1,

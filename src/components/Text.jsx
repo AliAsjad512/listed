@@ -5,9 +5,10 @@ const Text = () => {
       <h1 className="text-h1">
         <span className="text-span" />
         <div className="message">
-          <div className="word1">Welcome!</div>
-          <div className="word2">Sign Up</div>
-          <div className="word3">Login</div>
+          <div>
+          <h3 className="animate-charcter"> Listed Marketplace</h3>
+            
+            </div>
         </div>
       </h1>
     </div>

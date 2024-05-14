@@ -19,7 +19,7 @@
   left: 0;
   margin: 0;
   padding: 0;
-  background: #000000;
+  background: #e1ccc1;
   overflow: hidden;
 }
 
@@ -30,7 +30,6 @@
   width: 20px;
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
-  animation: animate 12s linear infinite;
 }
 
 .background li:nth-child(0) {
