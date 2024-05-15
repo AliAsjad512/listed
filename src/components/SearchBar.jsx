@@ -70,14 +70,14 @@ const SearchBar = () => {
     for (let i = 0; i < cart.length; i++) {
       if (cart[i].key === item.key) {
         return (
-          <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed">
+          <button className="bg-orange-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed">
             Item is in Cart
           </button>
         );
       } else {
         return (
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
+            className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mt-2"
             onClick={() => {
               dispatch(addToCart(selectedProduct));
             }}
@@ -89,7 +89,7 @@ const SearchBar = () => {
     }
     return (
       <button
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
+        className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mt-2"
         onClick={() => {
           dispatch(addToCart(selectedProduct));
         }}
@@ -164,9 +164,9 @@ const SearchBar = () => {
             >
               <a
                 href="#_"
-                className="relative inline-flex items-center justify-center my-3 px-5 py-2 overflow-hidden font-medium text-blue-600 transition duration-300 ease-out border-2 border-blue-500 rounded-full shadow-md group"
+                className="relative inline-flex items-center justify-center my-3 px-5 py-2 overflow-hidden font-medium text-orange-600 transition duration-300 ease-out border-2 border-orange-500 rounded-full shadow-md group"
               >
-                <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
+                <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
                   <svg
                     className="w-6 h-6"
                     fill="none"
@@ -182,7 +182,7 @@ const SearchBar = () => {
                     ></path>
                   </svg>
                 </span>
-                <span className="absolute flex items-center justify-center w-full h-full text-blue-500 transition-all duration-300 transform group-hover:translate-x-full ease">
+                <span className="absolute flex items-center justify-center w-full h-full text-orange-500 transition-all duration-300 transform group-hover:translate-x-full ease">
                   View Product
                 </span>
                 <span className="relative invisible">View Product</span>
@@ -236,7 +236,7 @@ const SearchBar = () => {
                     </span>
                   </div>
                   <button
-                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
+                    className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mt-2"
                     onClick={handleButtonClick}
                   >
                     Add To Cart

@@ -133,7 +133,7 @@ function Cart() {
                   onClick={() => {
                     navigate(user.email ? "/checkout" : "/login");
                   }}
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded"
                   disabled={cart.length === 0}
                 >
                   Proceed To Checkout
@@ -149,7 +149,7 @@ function Cart() {
                 </button>
               </div>
             ) : (
-              <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded opacity-80 cursor-not-allowed">
+              <button className="bg-orange-500 text-white font-bold py-2 px-4 rounded opacity-80 cursor-not-allowed">
                 No items in cart
               </button>
             )}

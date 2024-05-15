@@ -259,14 +259,14 @@
 
 .btn-login {
   color: #2282e3;
-  background: #a7e245;
+  background: #ffffff;
   transform: translateX(-30%);
 }
 
 .btn-signup {
-  color: #a7e245;
+  color: #ffffff;
   background: #fbfdff;
-  box-shadow: inset 0 0 0 2px #a7e245;
+  box-shadow: inset 0 0 0 2px #ffffff;
   transform: translateX(30%);
 }
 

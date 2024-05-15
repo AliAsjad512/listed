@@ -178,7 +178,7 @@ const Checkout = () => {
             You can log in or sign up{" "}
             <a
               href="/login"
-              className="text-underline font-medium text-blue-600"
+              className="text-underline font-medium text-orange-600"
             >
               here
             </a>
@@ -197,7 +197,7 @@ const Checkout = () => {
           </h1>
           <h2>
             Let's add some{" "}
-            <a href="/" className="text-underline font-medium text-blue-600">
+            <a href="/" className="text-underline font-medium text-orange-600">
               products
             </a>{" "}
             to it!
@@ -394,11 +394,11 @@ const Checkout = () => {
 
                   <p className="text-zinc-500 py-2">
                     By placing your order, you agree to our{" "}
-                    <a href="#" className="text-blue-600">
+                    <a href="#" className="text-orange-600">
                       privacy notice
                     </a>{" "}
                     and{" "}
-                    <a href="#" className="text-blue-600">
+                    <a href="#" className="text-orange-600">
                       conditions of use
                     </a>
                     .
@@ -571,11 +571,11 @@ const Checkout = () => {
                     </p>
                     <p className="text-zinc-500">
                       By placing your order, you agree to our{" "}
-                      <a href="#" className="text-blue-600">
+                      <a href="#" className="text-orange-600">
                         privacy notice
                       </a>{" "}
                       and{" "}
-                      <a href="#" className="text-blue-600">
+                      <a href="#" className="text-orange-600">
                         conditions of use
                       </a>
                       .
