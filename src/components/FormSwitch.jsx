@@ -144,9 +144,9 @@ function FormSwitch() {
             className="switcher switcher-login"
             onClick={() => handleSwitcherClick("login")}
           >
-            <AccountCircle sx={{ color:"#db8960",mr: 1, my: 2.5 }}></AccountCircle>
-            Login
+            <h3 className="animate-charcter"> Login</h3>
             <span className="underline"></span>
+            
           </button>
           <form className="form form-login" onSubmit={handleLogin}>
             {submitLogSuccess && (
@@ -239,9 +239,9 @@ function FormSwitch() {
             className="switcher switcher-signup"
             onClick={() => handleSwitcherClick("signup")}
           >
-            <HowToRegRoundedIcon sx={{ color: "#db8960",mr: 1, my: 2.5 }}></HowToRegRoundedIcon>
             
-            Sign Up
+            <h3 className="animate-charcter"> Signup</h3>
+            <span className="underline"></span>
             
             <span className="underline"></span>
           </button>
